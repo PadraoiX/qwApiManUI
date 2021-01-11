@@ -1,0 +1,10 @@
+{
+  "Error.Passport.Password.Wrong": "Puxa, sua senha não parece estar muito certa!",
+  "Error.Passport.Password.NotSet": "Ah não, você ainda ão definiu uma senha!",
+  "Error.Passport.Username.NotFound": "Uhm, Pode me dizer o seu nome novamente?",
+  "Error.Passport.Email.NotFound": "Seu e-mail não me parece certo!",
+  "Could not find dependency: `rc`.": "Não posso encontrar a dependência: `rc`.",
+  "Your `.sailsrc` file(s) will be ignored.": "Seu(s) arquivo(s) `.sailsrc` será(ão) ignorado(s).",
+  "To resolve this, run:": "Resolva isso antes de rodar novamente com:",
+  "npm install rc --save": "npm install rc --save"
+}

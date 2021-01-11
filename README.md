@@ -1,5 +1,5 @@
 # qwApiManUI
-Repositório do Bailarina 4.0(Interface de Usuários para o Kong Api Manager)
+Repositório do Bailarina 4.0(Interface de Usuários para o Kong Api Manager 1.x+)
 
 ## More than just another GUI to [KONG Admin API](http://getkong.org)    [![Build Status](https://travis-ci.org/pantsel/konga.svg?branch=master)](https://travis-ci.org/pantsel/konga)    [![Gitter chat](https://badges.gitter.im/pantsel-konga/Lobby.png)](https://gitter.im/pantsel-konga/Lobby)
 
@@ -63,6 +63,7 @@ or `konga:legacy` from docker hub instead.
 - A running [Kong installation](https://getkong.org/) 
 - Nodejs >= 8, <= 12.x (12.16 LTS is recommended)
 - Npm
+- PostgreSQL >= 10
 
 ## Used libraries
 * Sails.js, http://sailsjs.org/

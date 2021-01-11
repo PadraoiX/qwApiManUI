@@ -53,10 +53,10 @@ try {
   try {
     rc = require('sails/node_modules/rc');
   } catch (e1) {
-    console.error('Could not find dependency: `rc`.');
-    console.error('Your `.sailsrc` file(s) will be ignored.');
-    console.error('To resolve this, run:');
-    console.error('npm install rc --save');
+    console.error(i18n('Could not find dependency: `rc`.'));
+    console.error(i18n('Your `.sailsrc` file(s) will be ignored.'));
+    console.error(i18n('To resolve this, run:'));
+    console.error(i18n('npm install rc --save'));
     rc = function () {
       return {};
     };

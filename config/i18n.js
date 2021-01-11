@@ -13,6 +13,9 @@
  *
  * For a complete list of i18n options, see:
  * https://github.com/mashpie/i18n-node#list-of-configuration-options
+ * 
+ * Veja também:
+ * 
  */
 module.exports.i18n = {
   /***************************************************************************
@@ -20,7 +23,7 @@ module.exports.i18n = {
    * Which locales are supported?                                             *
    *                                                                          *
    ***************************************************************************/
-  locales: ['en'],
+  locales: ['en','pt-br'],
 
   /****************************************************************************
    *                                                                           *
