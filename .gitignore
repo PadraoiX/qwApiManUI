@@ -124,5 +124,7 @@ nbproject
 /certs/
 /.env
 .env
+/.tmp
+.tmp
 /seeds/
 /seeds/

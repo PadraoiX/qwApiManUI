@@ -64,19 +64,24 @@ or `konga:legacy` from docker hub instead.
 - Nodejs >= 8, <= 12.x (12.16 LTS is recommended)
 - Npm
 - PostgreSQL >= 10
+- git version >= 2.7 
+- python >= 2.7
 
 ## Used libraries
 * Sails.js, http://sailsjs.org/
 * AngularJS, https://angularjs.org/
 
 ## Installation
+npm install i18n
+npm install node.js
 
 Install `npm` and `node.js`. Instructions can be found [here](http://sailsjs.org/#/getStarted?q=what-os-do-i-need).
 
 Install `bower`, ad `gulp` packages.
 ```
-$ git clone https://github.com/pantsel/konga.git
-$ cd konga
+$ git clone https://github.com/PadraoiX/qwApiManUI.git
+$ git config --system http.sslverify false
+$ cd qwApiManUI
 $ npm i
 ```
 
