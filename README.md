@@ -53,30 +53,35 @@ If you need to discuss anything Konga related, we have a chatroom on Gitter:
 * Multiple users.
 * Easy database integration (MySQL, postgresSQL, MongoDB).
 
-## Compatibility
-**From 0.14.0 onwards, Konga is ONLY compatible with Kong 1.x**
+## Compatibilidade
+**Baseado no Konga 0.14.0 esta versão só é compátivel com Kong 1.x+**
 
-If you're on an older Kong version , use [this](https://github.com/pantsel/konga/tree/legacy) branch 
-or `konga:legacy` from docker hub instead.
+Isto é, não oferecemos suporte as versões antigas do Kong e se este for o seu caso [tente](https://github.com/pantsel/konga/tree/legacy) alguns destes branch ou `konga:legacy` do docker hub.
 
-## Prerequisites
-- A running [Kong installation](https://getkong.org/) 
-- Nodejs >= 8, <= 12.x (12.16 LTS is recommended)
+## Pré-requisitos
+- Uma [Instalação do Kong](https://getkong.org/) rodadando
+- Nodejs >= 8, <= 12.x (12.16 LTS recomendado)
 - Npm
 - PostgreSQL >= 10
+- git version >= 2.7 
+- python >= 2.7
 
-## Used libraries
+## Bibliotecas Usadas
 * Sails.js, http://sailsjs.org/
 * AngularJS, https://angularjs.org/
+* i18n, 
 
 ## Installation
+npm install i18n
+npm install node.js
 
 Install `npm` and `node.js`. Instructions can be found [here](http://sailsjs.org/#/getStarted?q=what-os-do-i-need).
 
 Install `bower`, ad `gulp` packages.
 ```
-$ git clone https://github.com/pantsel/konga.git
-$ cd konga
+$ git clone https://github.com/PadraoiX/qwApiManUI.git
+$ git config --system http.sslverify false
+$ cd qwApiManUI
 $ npm i
 ```
 
