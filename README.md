@@ -1,33 +1,41 @@
 # qwApiManUI
-Repositório do Bailarina 4.0(Interface de Usuários para o Kong Api Manager 1.x+)
+Repositório do Bailarina 4.0 (Interface de Usuários para o Kong Api Manager 1.x+)
 
-## More than just another GUI to [KONG Admin API](http://getkong.org)    [![Build Status](https://travis-ci.org/pantsel/konga.svg?branch=master)](https://travis-ci.org/pantsel/konga)    [![Gitter chat](https://badges.gitter.im/pantsel-konga/Lobby.png)](https://gitter.im/pantsel-konga/Lobby)
+## Uso em desenvolvimento
+```
+
+D:\Bin\PostgreSQL\bin\psql.exe -U postgres / **Senha Padrão**
+
+```
+
+## Este Projeto é muito mais que uma interface de usuários para o [KONG Admin API](http://getkong.org)    [![Build Status](https://travis-ci.org/pantsel/konga.svg?branch=master)](https://travis-ci.org/pantsel/konga)    [![Gitter chat](https://badges.gitter.im/pantsel-konga/Lobby.png)](https://gitter.im/pantsel-konga/Lobby)
 
 
 [![Dashboard](screenshots/bc3.png)](https://raw.githubusercontent.com/pantsel/konga/master/screenshots/bc2.png)
 
-_Konga is not an official app. No affiliation with [Kong](https://www.konghq.com/)._
+_qwApiManUI não é aplicação oficial suportada pelo core do [KONG Admin API](https://www.konghq.com/). é uma aplicação da suite de produtos da Familia Q-Ware da [Padrão iX (PIX)](https://www.pix.com.br/)_
 
-### Support the project
-If you find Konga helpful, 
-you can show your support and help me continue maintaining the project by [buying me a coffee](buymeacoff.ee/F1aRIj8CG)
-or becoming a [Patron](https://www.patreon.com/kongaui). Cheers!
+### Apoie este projeto
+Se você entende que o qwApiManUI é de útil,você pode oferecer ajuda de modo a nos permitir manter este projeto [buying me a coffee](buymeacoff.ee/F1aRIj8CG)
+or uma cerveja. Tim-Tim!
 
 <a href="https://www.buymeacoffee.com/F1aRIj8CG" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 
-## Supported by
+## Suportado por
 
-Special thanks to our supporters that help us keep the project going and the motivation alive.
+Agradecimentos especiais a todos os apoiadores deste projeto que nos motiva e ajuda a mantê-lo vivo.
 
 <a href="https://www.greenbird.com" target="_blank"><img src="screenshots/greenbird.png" width="250"></a>
 
-## Summary
+<a href="https://www.pix.com.br" target="_blank"><img src="https://www.pix.com.br/images/thumbnail/rgb.png_1773x887.png" width="200"></a>
+
+## Sumário
 
 - [**Discussions & Support**](#discussions--support)
 - [**Features**](#features)
-- [**Compatibility**](#compatibility)
-- [**Prerequisites**](#prerequisites)
+- [**Compat- [**Prerequisites**](#prerequisites)
+ibility**](#compatibility)
 - [**Used libraries**](#used-libraries)
 - [**Installation**](#installation)
 - [**Configuration**](#configuration)
@@ -38,10 +46,10 @@ Special thanks to our supporters that help us keep the project going and the mot
 - [**More Kong related stuff**](#more-kong-related-stuff)
 - [**License**](#license)
 
-## Discussions & Support
-If you need to discuss anything Konga related, we have a chatroom on Gitter:
+## Discussões, FAQ, Idéias e etc.
+Você pode discutir qualquer assunto relacionado ao qwApiManUI em:
 
-[![Gitter chat](https://badges.gitter.im/pantsel-konga/Lobby.png)](https://gitter.im/pantsel-konga/Lobby)
+[![Suporte](https://github.com/PadraoiX/qwApiManUI/discussions)
 
 ## Features
 * Manage all Kong Admin API Objects.
@@ -68,21 +76,26 @@ Isto é, não oferecemos suporte as versões antigas do Kong e se este for o seu
 
 ## Bibliotecas Usadas
 * Sails.js, http://sailsjs.org/
+** Mais instruções podem ser encontradas aqui [here](http://sailsjs.org/#/getStarted?q=what-os-do-i-need).
 * AngularJS, https://angularjs.org/
 * i18n, 
 
 ## Installation
-npm install i18n
-npm install node.js
+Instale o `npm` o `node.js`.
 
-Install `npm` and `node.js`. Instructions can be found [here](http://sailsjs.org/#/getStarted?q=what-os-do-i-need).
+npm install node.js --save
 
-Install `bower`, ad `gulp` packages.
+npm install i18n --save
+
+npm install bower --save
+
+npm install gulp --save
+
 ```
 $ git clone https://github.com/PadraoiX/qwApiManUI.git
 $ git config --system http.sslverify false
 $ cd qwApiManUI
-$ npm i
+$ npm install
 ```
 
 ## Configuration

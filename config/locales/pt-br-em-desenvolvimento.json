@@ -1,0 +1,3 @@
+{
+	"Form-api-010.Name.help" : "O nome da API. Se for especificado, irá tornar-se o padrão do <code>request_host</code> ou do <code>request_path</code>",
+}

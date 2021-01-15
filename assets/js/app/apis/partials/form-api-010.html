@@ -3,7 +3,7 @@
     <div class="col-sm-7">
         <input ng-model="api.name" class="form-control">
         <div class="text-danger" ng-if="errors.name" data-ng-bind="errors.name"></div>
-        <p class="help-block">The API name. If none is specified, will default to the <code>request_host</code> or <code>request_path</code>.</p>
+        <p class="help-block">{{i18n("Form-api-010.Name.help")}}.</p>
     </div>
 </div>
 <div class="form-group" ng-class="{'has-error' : errors.hosts}">
